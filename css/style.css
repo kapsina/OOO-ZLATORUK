@@ -1,0 +1,293 @@
+
+span {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 255, 255);
+  color: white;
+  font-family: 'Play', sans-serif;
+}
+nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+}
+
+.contener-buttoms {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0.2em 2em;
+}
+
+.heder-buttoms {
+  display: flex;
+  margin-left: -30px;
+  padding: 0.2em 0.7em;
+}
+.phone-maps {
+  color: white;
+  font-size: 1.15em;
+  letter-spacing: 1px;
+}
+.phone-maps span {
+  margin-left: 20px;
+}
+.nav-button {
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.15em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  transition: 0.25s ease-in-out;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.nav-button:hover {
+  color: rgb(220, 120, 0);
+}
+
+.nav-bg {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgb(50, 50, 50);
+  transition: 0.45s ease-in-out;
+}
+
+.bg-hidden {
+  top: -100%;
+  opacity: 0;
+}
+
+.bg-visible {
+  top: 0;
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.hero {
+  position: relative;
+  inset: 0;
+  width: 100%;
+  perspective: 1px;
+  height: 800px;
+  background: rgb(255, 255, 255);
+  background-image: url("../img/herobg.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  overflow-y: auto;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 100% 60px;
+  border-bottom-right-radius: 100% 60px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  padding: 0.3em;
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+.logo{
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+
+.logo-img{
+height: 300px;
+width: 300px;
+}
+
+.content-wrapper {
+  width: 80%;
+  height: 0px;
+  padding: 1em 10%;
+  color: black;
+}
+
+.content {
+  font-size: 20px;
+  color: black;
+  font-family: 'Play', sans-serif;
+}
+
+.paragraphs {
+  margin: 5px 15px;
+  line-height: 1.5;
+}
+
+.swiper {
+  border-radius: 20px;
+  width: 1000px;
+  height: 700px;
+}
+
+.swiper-wrapper {
+
+}
+
+.swiper-slide {
+  width: 10%;
+  height: 10%;
+}
+
+.swiper-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+.Mortgage {
+  height: 2000px;
+}
+
+.ipotecha{
+  position: relative;
+  top: 1500px;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.describe-advantages {
+  position: relative;
+  top: 1500px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+  border-radius: 8px 8px 16px 16px;
+  border-top-color: #5a5a5a;
+  border-top-style: solid;
+  border-top-width: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.describe-advantages__card {
+  padding: 45px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.describe-advantages__card:not(:first-child) {
+  border-left-color: #dbdbdb;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+.describe-advantages__icon {
+  margin-bottom: 32px;
+  width: 25%;
+}
+.describe-advantages__number {
+  font-family: HKGrotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #4b4b4b;
+}
+.describe-advantages__subnumber {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #a8a8a8;
+}
+
+.map {
+  box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  background: rgb(110, 105, 105);
+  padding: 2px 0px;
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  margin: 8px 0%;
+  padding: 2px 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer-buttoms {
+  width: 100%;
+}
+
+.footer-buttoms li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+.telegram {
+  margin-right: 13px;
+  width: 40px;
+  height: 40px;
+}
+.vk {
+  margin-right: 13px;
+  width: 40px;
+  height: 40px;
+}
+
+.avito {
+  margin-right: 13px;
+  width: 150px;
+}
